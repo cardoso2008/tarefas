@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><center><h1>Tarefas do dia</h1></center></header>
+    
+    <div id="inputs"><center>
+    <input type="text" placeholder="Tarefa 1" id="tarefa1"><br>
+    <input type="text" placeholder="Tarefa 2" id="tarefa2"><br>
+    <input type="text" placeholder="Tarefa 3" id="tarefa3"><br>
+    <input type="text" placeholder="Tarefa 4" id="tarefa4"><br>
+    <input type="text" placeholder="Tarefa 5" id="tarefa5"><br></center>
+
+</div><center>
+    <div id="botoesGerais">
+    <button onclick="salvarTarefas()">Salvar tarefas</button>
+    <button onclick="mostrarTarefas()">Mostrar tarefas</button>
+    <button onclick="limparTarefas()">Limpar todas as tarefas</button></center></div>
+
+    <div id="limparTarefas"><center>
+    <p id="resultado1"></p>
+    <button class="excluirUmaTarefa" onclick="limparTarefa1()">Excluir tarefa</button>
+    <p id="resultado2"></p>
+    <button class="excluirUmaTarefa" onclick="limparTarefa2()">Excluir tarefa</button>
+    <p id="resultado3"></p>
+    <button class="excluirUmaTarefa" onclick="limparTarefa3()">Excluir tarefa</button>
+    <p id="resultado4"></p>
+    <button class="excluirUmaTarefa" onclick="limparTarefa4()">Excluir tarefa</button>
+    <p id="resultado5"></p>
+    <button class="excluirUmaTarefa" onclick="limparTarefa5()">Excluir tarefa</button></center></div> 
+
+    <center><footer><p>Feito por Guilherme Cardoso</p></footer></center>
+
+    <script src="script.js"></script>
+</body>
+</html>

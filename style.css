@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blue;
+    height: 80px;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#inputs{
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 20px;
+    width: 250px;
+}
+
+#botoesGerais {
+    margin-top: 20px;
+}
+
+button {
+    background-color: yellow;
+    height: 30px;
+    width: 160px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    transition: all 0.5s;
+    transform: scale(1.05)
+}
+
+#limparTarefas {
+    margin-top: 70px;
+}
+
+.excluirUmaTarefa {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+}
+
+p{
+    font-size: 22px;
+}
+
+footer{
+    background-color: blue;
+    height: 150px;
+    color: white;
+}
